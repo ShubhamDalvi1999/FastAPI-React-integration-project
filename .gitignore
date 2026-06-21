@@ -38,3 +38,6 @@ ENV/
 
 # Logs
 *.log 
+.cursor/
+#.cursor
+.cursor
