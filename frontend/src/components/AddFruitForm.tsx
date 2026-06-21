@@ -28,7 +28,7 @@ const AddFruitForm: React.FC<AddFruitFormProps> = ({ addFruit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="add-fruit-form" onSubmit={handleSubmit}>
       <input
         type="text"
         value={fruitName}

@@ -96,10 +96,10 @@ const FruitList: React.FC = () => {
   }
 
   return (
-    <div>
+    <div className="fruits-container">
       <h2>Fruits List</h2>
       {fruits.length === 0 ? (
-        <p>No fruits available. Add some!</p>
+        <p className="fruits-empty">No fruits available. Add some!</p>
       ) : (
         <ul>
           {fruits.map((fruit) => (
