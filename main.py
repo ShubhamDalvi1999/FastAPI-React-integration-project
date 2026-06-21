@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+
 from backend.routers import auth
 from backend.routers import user
 from backend.routers import fruits
