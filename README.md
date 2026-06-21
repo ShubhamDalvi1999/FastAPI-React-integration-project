@@ -1,5 +1,6 @@
 # FastAPI React Project with Authentication
 
+
 This project implements a FastAPI backend with React frontend, featuring a complete authentication system.
 
 ## Setup
